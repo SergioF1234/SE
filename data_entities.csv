@@ -1,0 +1,10 @@
+business_domain,entity_type,definition,example,color
+Finance,Legal Entity,"A distinct legal entity or business unit within an organization.  In the context of a COA, the company code or identifier helps segregate financial data for reporting and regulatory compliance."," At present, there are 18 Companies/Legal Entities. For example, SEHC, Care at Home, and SE Medical Services.
+It should be noted that ",Blue
+Finance,GL Department,"A segment of the organization representing a functional or operational unit used for internal cost and performance tracking.
+The associated identifier helps categorize expenses or revenues by department to aid in budgeting and financial analysis.
+","A GL Dept can have one or more contracts, and some of them can be grouped into a funder. 
+Note: Funders is considered an attribute of a Contract, from a Financial Perspective.
+Attributes of a GL department include Funders, Region, Contract, and Operational Group.",Blue
+Payroll,Pay Group,"Pay group is a logical grouping of qualifying individuals for payment and contains payees who share pay characteristics. All payees in a pay group must have the same pay frequency (begin, end, and payment dates) and payroll calculation process and belong to the same pay entity.",N/A,Green
+Payroll,Pay Calendar,"Identifies which payees to process and the run type and pay period. It can include instructions for generation control, excluding certain elements from processing, overriding supporting elements, and providing other information",N/A,Green
