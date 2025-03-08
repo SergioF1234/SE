@@ -1,4 +1,4 @@
-﻿source_business_domain,source_entity_type,destination_business_domain,destination_entity_type,relationship_name,cardinaltiy
+﻿source_business_domain,source_entity_type,destination_business_domain,destination_entity_type,relationship_name,cardinality
 Finance,Legal Entity,Finance,GL Department,Has,0..*
 Finance,GL Department,Finance,Legal Entity,Belongs To,1..*
 Payroll,Pay Group,Payroll,Pay Calendar,Belongs To,1..1
