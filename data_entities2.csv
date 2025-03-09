@@ -1,0 +1,5 @@
+business_domain,entity_type,definiton,example,color,,,,`Finance`,`Legal Entity`,"`A distinct legal entity or business unit within an organization.  In the context of a COA, the company code or identifier helps segregate financial data for reporting and regulatory compliance.`"," `At present, there are 18 Companies/Legal Entities. For example, SEHC, Care at Home, and SE Medical Services.`",`Blue`,,,,`Finance`,`GL Department`,"`A segment of the organization representing a functional or operational unit used for internal cost and performance tracking.
+The associated identifier helps categorize expenses or revenues by department to aid in budgeting and financial analysis.`
+","`A GL Dept can have one or more contracts, and some of them can be grouped into a funder. 
+Note: Funders is considered an attribute of a Contract, from a Financial Perspective.
+Attributes of a GL department include Funders, Region, Contract, and Operational Group.`",`Blue`,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
