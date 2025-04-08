@@ -1,12 +1,11 @@
 business_domain,entity_type,definition,example,color
-Payroll,Legal-Entity ,N/A,N/A,Green
-Payroll,Pay-Group ,N/A,N/A,Green
-Payroll,Pay-calendar ,N/A,N/A,Green
-Payroll,Pay-run-ID ,N/A,N/A,Green
-Payroll,Pay-sheet ,N/A,N/A,Green
-Payroll,Earning-code ,N/A,N/A,Green
-Payroll,Deduction-code ,N/A,N/A,Green
-Payroll,Accumulator ,N/A,N/A,Green
-Payroll,Earnings-code ,N/A,N/A,Green
-Payroll,Bank ,N/A,N/A,Green
-Payroll,Branch ,N/A,N/A,Green
+Payroll,Legal-Entity,N/A,N/A,Green
+Payroll,Pay-Group,N/A,N/A,Green
+Payroll,Pay-calendar,N/A,N/A,Green
+Payroll,Pay-run-ID,N/A,N/A,Green
+Payroll,Pay-sheet,N/A,N/A,Green
+Payroll,Earning-code,N/A,N/A,Green
+Payroll,Deduction-code,N/A,N/A,Green
+Payroll,Accumulator,N/A,N/A,Green
+Payroll,Bank,N/A,N/A,Green
+Payroll,Branch,N/A,N/A,Green
