@@ -14,4 +14,4 @@ Payroll,Pay-sheet ,Payroll,Deduction-code,Belongs-to,1_*
 Payroll,Accumulator ,Payroll,Earning-code ,Has,1_*
 Payroll,Earning-code ,Payroll,Accumulator ,Belongs-to ,1_*
 Payroll,Bank ,Payroll,Branch ,Has ,1_*
-Payroll,Branch ,Payroll,Bank ,Belongs-to ,1_1
+Payroll,Branch ,Payroll,Bank ,Belongs-to ,1_*
