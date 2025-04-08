@@ -1,0 +1,17 @@
+source_business_domain,source_entity_type,destination_business_domain,destination_entity_type,relationship_name,cardinality
+Payroll,Legal-Entity ,Payroll,Pay-Group ,Has ,0..n
+Payroll,Pay-Group ,Payroll,Legal-Entity ,Belongs-to ,1..1
+Payroll,Pay-calendar ,Payroll,Pay-Group ,Has ,1..1
+Payroll,Pay-Group ,Payroll,Pay-calendar ,Belongs-to ,1..1
+Payroll,Pay-run-ID ,Payroll,Pay-calendar ,Has ,1..1
+Payroll,Pay-calendar ,Payroll,Pay-run-ID,Belongs-to ,1..1
+Payroll,Pay-sheet ,Payroll,Pay-Group ,Has ,1..1
+Payroll,Pay-Group ,Payroll,Pay-sheet ,Belongs-to  ,1..n
+Payroll,Earning-code ,Payroll,Pay-sheet ,Has ,1..n
+Payroll,Pay-sheet ,Payroll,Earning-code,Belongs-to  ,1..n
+Payroll,Deduction-code ,Payroll,Pay-sheet,Has ,1..n
+Payroll,Pay-sheet ,Payroll,Deduction-code  ,Belongs-to ,1..n
+Payroll,Accumulator ,Payroll,Earning-code ,Has ,1..n
+Payroll,Earning-code ,Payroll,Accumulator ,Belongs-to ,1..n
+Payroll,Bank ,Payroll,Branch ,Has ,1..n
+Payroll,Branch ,Payroll,Bank ,Belongs-to ,1..1
