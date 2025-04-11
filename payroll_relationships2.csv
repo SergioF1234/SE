@@ -1,0 +1,17 @@
+source_business_domain,source_entity_type,destination_business_domain,destination_entity_type,relationship_name,cardinality
+payroll,legal-entity,payroll,pay-group,has,0_*
+payroll,pay-group,payroll,legal-entity,belongs-to,1_1
+payroll,pay-calendar,payroll,pay-group,has,1_1
+payroll,pay-group,payroll,pay-calendar,belongs-to,1_1
+payroll,pay-run-id,payroll,pay-calendar,has,1_1
+payroll,pay-calendar,payroll,pay-run-id,belongs-to,1_1
+payroll,pay-sheet,payroll,pay-group,has,1_1
+payroll,pay-group,payroll,pay-sheet,belongs-to,1_*
+payroll,earning-code,payroll,pay-sheet,has,1_*
+payroll,pay-sheet,payroll,earning-code,belongs-to,1_*
+payroll,deduction-code,payroll,pay-sheet,has,1_*
+payroll,pay-sheet,payroll,deduction-code,belongs-to,1_*
+payroll,accumulator,payroll,earning-code,has,1_*
+payroll,earning-code,payroll,accumulator,belongs-to,1_*
+payroll,bank,payroll,branch,has,1_*
+payroll,branch,payroll,bank,belongs-to,1_*
