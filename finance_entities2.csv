@@ -1,0 +1,14 @@
+business_domain,entity_type,definition,example,color
+finance,gl-department,n/a,n/a,blue
+finance,gl-account,n/a,n/a,blue
+finance,cost-center,n/a,n/a,blue
+finance,pay-group,n/a,n/a,blue
+finance,employee,n/a,n/a,blue
+finance,legal-entity,n/a,n/a,blue
+finance,payroll-schedule,n/a,n/a,blue
+finance,business-number,n/a,n/a,blue
+finance,payroll-number,n/a,n/a,blue
+finance,cost-center,n/a,n/a,blue
+finance,contract-type,n/a,n/a,blue
+finance,funder,n/a,n/a,blue
+finance,region,n/a,n/a,blue
