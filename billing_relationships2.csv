@@ -1,4 +1,4 @@
-ï»¿source_business_domain,source_entity_type,destination_business_domain,destination_entity_type,relationship_name,cardinality
+source_business_domain,source_entity_type,destination_business_domain,destination_entity_type,relationship_name,cardinality
 billing,company,billing,funder,has,0_n
 billing,funder,billing,company,is associated,1_n
 billing,funder,billing,contract,funds,1_n
