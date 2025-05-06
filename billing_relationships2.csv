@@ -55,7 +55,7 @@ billing,company,billing,funder,has,1_*
 billing,funder,billing,company,is associated,1_*
 billing,primary-home-department,billing,independent-subcontractor,manages,1_*
 billing,independent-subcontractor,billing,primary-home-department,is managed,1_1
-billing,primary-home,billing,independent-contractor-agency,is accountable,1-n
+billing,primary-home,billing,independent-contractor-agency,is accountable,1_*
 billing,independent-contractor-agency,billing,primary-home,is managed,1_1
 billing,patient,billing,funder,can become,1_1
 billing,funder,billing,patient,can become,1_1
