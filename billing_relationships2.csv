@@ -1,59 +1,59 @@
 source_business_domain,source_entity_type,destination_business_domain,destination_entity_type,relationship_name,cardinality
-billing,company,billing,funder,has,0_n
-billing,funder,billing,company,is associated,1_n
-billing,funder,billing,contract,funds,1_n
+billing,company,billing,funder,has,0_*
+billing,funder,billing,company,is associated,1_*
+billing,funder,billing,contract,funds,1_*
 billing,contract,billing,funder,is funded,1_1
-billing,contract,billing,product-line,contains,1_n
-billing,product-line,billing,contract,belongs,1_n
-billing,product-line,billing,service,contains,1_n
+billing,contract,billing,product-line,contains,1_*
+billing,product-line,billing,contract,belongs,1_*
+billing,product-line,billing,service,contains,1_*
 billing,service,billing,product-line,belongs,1_1
-billing,operational-group,billing,contract,has,1_n
+billing,operational-group,billing,contract,has,1_*
 billing,contract,billing,operational-group,managed,1_1
-billing,operational-group,billing,product-line,delivers,1_n
+billing,operational-group,billing,product-line,delivers,1_*
 billing,product-line,billing,operational-group,is delivered,1_1
 billing,operational-group,billing,primary-department,has,1_1
 billing,primary-home-department,billing,operational-group,belongs,1_1
-billing,primary-home-department,billing,front-line-member,manages,1_n
+billing,primary-home-department,billing,front-line-member,manages,1_*
 billing,front-line-member,billing,primary-home-department,is managed,1_1
 billing,visit,billing,front-line-member,is performed,1_1
-billing,front-line-member,billing,visit,performs,1_n
-billing,visit,billing,care-detail,has,1_n
+billing,front-line-member,billing,visit,performs,1_*
+billing,visit,billing,care-detail,has,1_*
 billing,care-detail,billing,visit,belongs,1_1
-billing,front-line-member,billing,patient,services,1_n
-billing,patient,billing,front-line-member,is serviced,1_n
-billing,front-line-member,billing,product-line,uses,1_n
-billing,product-line,billing,front-line-member,is used,1_n
-billing,product-line,billing,bill-code,has,1_n
-billing,bill-code,billing,product-line,belongs,1_n
+billing,front-line-member,billing,patient,services,1_*
+billing,patient,billing,front-line-member,is serviced,1_*
+billing,front-line-member,billing,product-line,uses,1_*
+billing,product-line,billing,front-line-member,is used,1_*
+billing,product-line,billing,bill-code,has,1_*
+billing,bill-code,billing,product-line,belongs,1_*
 billing,bill-code,billing,service,is associated,1_1
 billing,service,billing,bill-code,associates,1_1
-billing,bill-code,billing,line-item,has,0_n
+billing,bill-code,billing,line-item,has,0_*
 billing,line-item,billing,bill-code,associated,1_1
 billing,visit,billing,bill-code,associates,1_1
 billing,bill-code,billing,visit,is associated,1_1
 billing,bill-code,billing,bill-rate,has,1_1
 billing,bill-rate,billing,bill-code,relates,1_1
 billing,visit,billing,service,performs,1_1
-billing,service,billing,visit,is performed,1_n
-billing,pathway,billing,service,groups,1_n
-billing,service,billing,pathway,belongs,0_n
+billing,service,billing,visit,is performed,1_*
+billing,pathway,billing,service,groups,1_*
+billing,service,billing,pathway,belongs,0_*
 billing,pathway,billing,price,has,1_1
 billing,price,billing,pathway,is associated,1_1
 billing,visit,billing,care-plan,associates,1_1
-billing,care-plan,billing,visit,is associated,1_n
-billing,service-plan,billing,visit,is fundedâ,1_n
+billing,care-plan,billing,visit,is associated,1_*
+billing,service-plan,billing,visit,is fundedâ,1_*
 billing,visit,billing,service-plan,belongs,1_1
-billing,operational-group,billing,department,has,1_n
+billing,operational-group,billing,department,has,1_*
 billing,department,billing,operational-group,belongs,1_1
-billing,front-line-member,billing,department,works,1_n
-billing,department,billing,front-line-member,has,0_n
-billing,operational-group,billing,region,services,1_n
+billing,front-line-member,billing,department,works,1_*
+billing,department,billing,front-line-member,has,0_*
+billing,operational-group,billing,region,services,1_*
 billing,region,billing,operational-group,is serviced,1_1
-billing,region,billing,funder,has,1_n
-billing,funder,billing,region,funds,1_n
-billing,company,billing,funder,has,1_n
-billing,funder,billing,company,is associated,1_n
-billing,primary-home-department,billing,independent-subcontractor,manages,1_n
+billing,region,billing,funder,has,1_*
+billing,funder,billing,region,funds,1_*
+billing,company,billing,funder,has,1_*
+billing,funder,billing,company,is associated,1_*
+billing,primary-home-department,billing,independent-subcontractor,manages,1_*
 billing,independent-subcontractor,billing,primary-home-department,is managed,1_1
 billing,primary-home,billing,independent-contractor-agency,is accountable,1-n
 billing,independent-contractor-agency,billing,primary-home,is managed,1_1
