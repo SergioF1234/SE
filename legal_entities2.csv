@@ -1,0 +1,13 @@
+﻿business_domain,entity_type,definition,example,color
+legal,assignee,n/a,n/a,purple
+legal,business-line,n/a,n/a,purple
+legal,contract-document,n/a,n/a,purple
+legal,employee,n/a,n/a,purple
+legal,external-template,n/a,n/a,purple
+legal,healthcare-provider,n/a,n/a,purple
+legal,internal-contract-template,n/a,n/a,purple
+legal,manager,n/a,n/a,purple
+legal,matter,n/a,n/a,purple
+legal,occupational-health-nurse,n/a,n/a,purple
+legal,requester,n/a,n/a,purple
+legal,rl6,n/a,n/a,purple
