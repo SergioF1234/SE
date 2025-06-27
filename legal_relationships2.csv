@@ -5,9 +5,9 @@ legal,assignee,legal,matter,assigned-to,1..n
 legal,matter,legal,assignee,assigned-to,0..n
 legal,requester,legal,contract-document,provides,1..n
 legal,contract-document,legal,requester,provided-by,0..n
-legal,requester,legal,business-lne,member-of,0..1
+legal,requester,legal,business-line,member-of,0..1
 legal,business-line,legal,requester,contains,0..n
-legal,contract-document,legal,business-lne,for,1..n
+legal,contract-document,legal,business-line,for,1..n
 legal,business-line,legal,contract-document,has,0..n
 legal,contract-document,legal,internal-contract-template,based-on,1..1
 legal,internal-contract-template,legal,contract-document,creates,0..n
